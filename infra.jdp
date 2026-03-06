@@ -36,7 +36,7 @@ pipeline {
 	stage('KUBECTL CONFIG') {
     	steps {
         	sh '''
-        	aws eks update-kubeconfig --region eu-west-1 --name my-cluster-19
+        	aws eks update-kubeconfig --region ap-south-1 --name my-cluster-19
         	'''
     		}
 	}

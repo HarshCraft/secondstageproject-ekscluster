@@ -11,7 +11,7 @@ terraform {
   backend "s3" {
     bucket  = "diamond-head22"
     key     = "terraform.tfstate"
-    region  = "eu-west-1"
+    region  = "ap-south-1"
     encrypt = true
   }
 }
